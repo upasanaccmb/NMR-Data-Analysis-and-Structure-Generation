@@ -1,0 +1,58 @@
+# Core scientific computing
+numpy>=1.21.0
+scipy>=1.7.0
+pandas>=1.3.0
+scikit-learn>=0.24.2
+
+# NMR processing
+nmrglue>=0.8
+nmrstarlib>=2.1.0
+
+# Molecular structure analysis
+biopython>=1.79
+mdtraj>=1.9.7
+prody>=2.0.0
+
+# Visualization and plotting
+matplotlib>=3.4.0
+seaborn>=0.11.0
+
+# Optimization
+sympy>=1.8
+cvxopt>=1.2.6
+
+# Machine learning (for advanced peak picking)
+tensorflow>=2.7.0
+keras>=2.7.0
+
+# Structure calculation interfaces
+ccpn-py3>=3.1.0
+cyana>=3.0  # Note: Requires separate installation and license
+CNS>=1.3    # Note: Requires separate installation and license
+
+# Utility packages
+tqdm>=4.62.0
+h5py>=3.4.0
+networkx>=2.6.0
+joblib>=1.0.0
+
+# Development and testing
+pytest>=6.2.5
+black>=21.7b0
+mypy>=0.910
+pylint>=2.9.6
+
+# Logging and monitoring
+logging>=0.5.1.2
+tensorboard>=2.7.0
+
+# File handling and compression
+zarr>=2.8.0
+h5py>=3.4.0
+
+# Optional: GUI components
+PyQt5>=5.15.4  # For GUI interfaces
+ipywidgets>=7.6.0  # For Jupyter notebook integration
+
+# Note: Some packages like CYANA and CNS require separate installation and licenses
+# Contact your institution or the software providers for access
